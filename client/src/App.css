@@ -204,6 +204,30 @@
   margin-bottom: 10px;
 }
 
+.closet-page__controls {
+  margin-bottom: 18px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 460px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 15px;
+  background: #fff;
+  color: var(--text);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.15);
+}
+
 /* Steps list (home page) */
 .steps-list {
   list-style: none;
