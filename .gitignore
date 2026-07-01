@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+dist/
+*.log
+
+# Environment files with secrets — never commit these.
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+.claude/
+.env
+.env.*
+node_modules/
+dist/
+.DS_Store
